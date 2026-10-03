@@ -1,0 +1,582 @@
+import type { Syllabus } from '@/types';
+
+export const BPSC_9_10_SYLLABUS: Syllabus = {
+  trackId: 'bpsc-9-10',
+  trackName: 'BPSC TRE 4.0 - Classes 9-10',
+  subjects: [
+    {
+      id: 'bpsc910-math',
+      name: 'Mathematics',
+      units: [
+        {
+          id: 'm910-u1',
+          name: 'Number Systems',
+          chapters: [
+            {
+              id: 'm910-ch1',
+              name: 'Real Numbers',
+              description: 'Rational and irrational numbers, Euclid\u2019s division lemma, fundamental theorem of arithmetic.',
+              importantConcepts: ['Rational Numbers', 'Irrational Numbers', 'Euclid\u2019s Division Lemma', 'Fundamental Theorem of Arithmetic', 'HCF and LCM'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'm910-ch1-t1', name: 'Rational and Irrational Numbers' },
+                { id: 'm910-ch1-t2', name: 'Euclid\u2019s Division Lemma' },
+                { id: 'm910-ch1-t3', name: 'Fundamental Theorem of Arithmetic' },
+                { id: 'm910-ch1-t4', name: 'HCF and LCM using Prime Factorization' },
+                { id: 'm910-ch1-t5', name: 'Decimal Expansions of Rational Numbers' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'm910-u2',
+          name: 'Algebra',
+          chapters: [
+            {
+              id: 'm910-ch2',
+              name: 'Polynomials',
+              description: 'Degree, zeros, factor theorem, remainder theorem, and factorization.',
+              importantConcepts: ['Polynomial', 'Degree', 'Zeros', 'Factor Theorem', 'Remainder Theorem'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'm910-ch2-t1', name: 'Types of Polynomials' },
+                { id: 'm910-ch2-t2', name: 'Zeros of a Polynomial' },
+                { id: 'm910-ch2-t3', name: 'Factor Theorem' },
+                { id: 'm910-ch2-t4', name: 'Remainder Theorem' },
+                { id: 'm910-ch2-t5', name: 'Factorization of Polynomials' },
+              ],
+            },
+            {
+              id: 'm910-ch3',
+              name: 'Pair of Linear Equations',
+              description: 'Systems of linear equations in two variables, graphical and algebraic methods.',
+              importantConcepts: ['Linear Equation', 'Consistent', 'Inconsistent', 'Substitution', 'Elimination', 'Cross-Multiplication'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'm910-ch3-t1', name: 'Linear Equations in Two Variables' },
+                { id: 'm910-ch3-t2', name: 'Graphical Method' },
+                { id: 'm910-ch3-t3', name: 'Substitution Method' },
+                { id: 'm910-ch3-t4', name: 'Elimination Method' },
+                { id: 'm910-ch3-t5', name: 'Cross-Multiplication Method' },
+                { id: 'm910-ch3-t6', name: 'Word Problems' },
+              ],
+            },
+            {
+              id: 'm910-ch4',
+              name: 'Quadratic Equations',
+              description: 'Solving quadratic equations by factorization, completing the square, and quadratic formula.',
+              importantConcepts: ['Quadratic Equation', 'Discriminant', 'Quadratic Formula', 'Nature of Roots'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'm910-ch4-t1', name: 'Introduction to Quadratic Equations' },
+                { id: 'm910-ch4-t2', name: 'Solution by Factorization' },
+                { id: 'm910-ch4-t3', name: 'Completing the Square' },
+                { id: 'm910-ch4-t4', name: 'Quadratic Formula' },
+                { id: 'm910-ch4-t5', name: 'Nature of Roots' },
+                { id: 'm910-ch4-t6', name: 'Word Problems' },
+              ],
+            },
+            {
+              id: 'm910-ch5',
+              name: 'Arithmetic Progressions',
+              description: 'nth term, sum of n terms, and AP word problems.',
+              importantConcepts: ['Arithmetic Progression', 'Common Difference', 'nth Term', 'Sum of n Terms'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'm910-ch5-t1', name: 'Introduction to AP' },
+                { id: 'm910-ch5-t2', name: 'nth Term of an AP' },
+                { id: 'm910-ch5-t3', name: 'Sum of First n Terms' },
+                { id: 'm910-ch5-t4', name: 'Word Problems on AP' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'm910-u3',
+          name: 'Geometry and Trigonometry',
+          chapters: [
+            {
+              id: 'm910-ch6',
+              name: 'Triangles',
+              description: 'Similarity, congruence, Pythagoras theorem, and area of similar triangles.',
+              importantConcepts: ['Similar Triangles', 'AAA', 'SAS', 'SSS', 'Pythagoras Theorem', 'Basic Proportionality Theorem'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'm910-ch6-t1', name: 'Similar Figures' },
+                { id: 'm910-ch6-t2', name: 'Criteria for Similarity' },
+                { id: 'm910-ch6-t3', name: 'Area of Similar Triangles' },
+                { id: 'm910-ch6-t4', name: 'Pythagoras Theorem' },
+              ],
+            },
+            {
+              id: 'm910-ch7',
+              name: 'Coordinate Geometry',
+              description: 'Distance formula, section formula, area of triangle, and collinearity.',
+              importantConcepts: ['Distance Formula', 'Section Formula', 'Midpoint', 'Area of Triangle'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'm910-ch7-t1', name: 'Distance Formula' },
+                { id: 'm910-ch7-t2', name: 'Section Formula' },
+                { id: 'm910-ch7-t3', name: 'Midpoint Formula' },
+                { id: 'm910-ch7-t4', name: 'Area of a Triangle' },
+              ],
+            },
+            {
+              id: 'm910-ch8',
+              name: 'Introduction to Trigonometry',
+              description: 'Trigonometric ratios, identities, and angle values.',
+              importantConcepts: ['Sin', 'Cos', 'Tan', 'Cosec', 'Sec', 'Cot', 'Trigonometric Identities'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'm910-ch8-t1', name: 'Trigonometric Ratios' },
+                { id: 'm910-ch8-t2', name: 'Trigonometric Ratios of Specific Angles' },
+                { id: 'm910-ch8-t3', name: 'Trigonometric Identities' },
+                { id: 'm910-ch8-t4', name: 'Complementary Angles' },
+              ],
+            },
+            {
+              id: 'm910-ch9',
+              name: 'Trigonometric Applications',
+              description: 'Heights, distances, and real-world applications of trigonometry.',
+              importantConcepts: ['Angle of Elevation', 'Angle of Depression', 'Line of Sight'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'm910-ch9-t1', name: 'Angle of Elevation and Depression' },
+                { id: 'm910-ch9-t2', name: 'Heights and Distances' },
+                { id: 'm910-ch9-t3', name: 'Word Problems' },
+              ],
+            },
+            {
+              id: 'm910-ch10',
+              name: 'Circles',
+              description: 'Tangents, secants, chords, and properties of circles.',
+              importantConcepts: ['Tangent', 'Secant', 'Chord', 'Arc', 'Number of Tangents from a Point'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'm910-ch10-t1', name: 'Tangent to a Circle' },
+                { id: 'm910-ch10-t2', name: 'Properties of Tangents' },
+                { id: 'm910-ch10-t3', name: 'Number of Tangents from a Point' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'm910-u4',
+          name: 'Mensuration',
+          chapters: [
+            {
+              id: 'm910-ch11',
+              name: 'Areas Related to Circles',
+              description: 'Area of sectors, segments, and combinations of plane figures.',
+              importantConcepts: ['Sector', 'Segment', 'Area of Sector', 'Length of Arc'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'm910-ch11-t1', name: 'Area of Sector' },
+                { id: 'm910-ch11-t2', name: 'Area of Segment' },
+                { id: 'm910-ch11-t3', name: 'Areas of Combinations' },
+              ],
+            },
+            {
+              id: 'm910-ch12',
+              name: 'Surface Areas and Volumes',
+              description: 'Surface area and volume of cubes, cuboids, cylinders, cones, spheres, and combinations.',
+              importantConcepts: ['Surface Area', 'Volume', 'Cylinder', 'Cone', 'Sphere', 'Hemisphere'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'm910-ch12-t1', name: 'Cylinder' },
+                { id: 'm910-ch12-t2', name: 'Cone' },
+                { id: 'm910-ch12-t3', name: 'Sphere and Hemisphere' },
+                { id: 'm910-ch12-t4', name: 'Combination of Solids' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'm910-u5',
+          name: 'Statistics and Probability',
+          chapters: [
+            {
+              id: 'm910-ch13',
+              name: 'Statistics',
+              description: 'Mean, median, mode of grouped data, and cumulative frequency.',
+              importantConcepts: ['Grouped Data', 'Mean', 'Median', 'Mode', 'Cumulative Frequency', 'Ogive'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'm910-ch13-t1', name: 'Mean of Grouped Data' },
+                { id: 'm910-ch13-t2', name: 'Mode of Grouped Data' },
+                { id: 'm910-ch13-t3', name: 'Median of Grouped Data' },
+                { id: 'm910-ch13-t4', name: 'Cumulative Frequency and Ogive' },
+              ],
+            },
+            {
+              id: 'm910-ch14',
+              name: 'Probability',
+              description: 'Classical definition, sample space, and probability of events.',
+              importantConcepts: ['Probability', 'Sample Space', 'Event', 'Classical Definition', 'Complementary Events'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'm910-ch14-t1', name: 'Classical Definition of Probability' },
+                { id: 'm910-ch14-t2', name: 'Sample Space and Events' },
+                { id: 'm910-ch14-t3', name: 'Simple Probability Problems' },
+                { id: 'm910-ch14-t4', name: 'Probability of Complementary Events' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'bpsc910-science',
+      name: 'Science',
+      units: [
+        {
+          id: 'sci910-u1',
+          name: 'Physics',
+          chapters: [
+            {
+              id: 'sci910-ch1',
+              name: 'Light: Reflection and Refraction',
+              description: 'Laws of reflection, spherical mirrors, refraction, lenses.',
+              importantConcepts: ['Reflection', 'Refraction', 'Spherical Mirrors', 'Lenses', 'Lens Formula', 'Snell\u2019s Law'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'sci910-ch1-t1', name: 'Reflection of Light' },
+                { id: 'sci910-ch1-t2', name: 'Spherical Mirrors' },
+                { id: 'sci910-ch1-t3', name: 'Refraction of Light' },
+                { id: 'sci910-ch1-t4', name: 'Lenses and Lens Formula' },
+              ],
+            },
+            {
+              id: 'sci910-ch2',
+              name: 'Electricity',
+              description: 'Electric current, Ohm\u2019s law, series and parallel circuits, electric power.',
+              importantConcepts: ['Electric Current', 'Ohm\u2019s Law', 'Resistance', 'Series Circuit', 'Parallel Circuit', 'Electric Power'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'sci910-ch2-t1', name: 'Electric Current and Potential Difference' },
+                { id: 'sci910-ch2-t2', name: 'Ohm\u2019s Law' },
+                { id: 'sci910-ch2-t3', name: 'Series and Parallel Circuits' },
+                { id: 'sci910-ch2-t4', name: 'Electric Power and Energy' },
+              ],
+            },
+            {
+              id: 'sci910-ch3',
+              name: 'Magnetic Effects of Current',
+              description: 'Magnetic field, electromagnet, electromagnetic induction, electric motor.',
+              importantConcepts: ['Magnetic Field', 'Electromagnet', 'Electromagnetic Induction', 'Electric Motor', 'Generator'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'sci910-ch3-t1', name: 'Magnetic Field and Field Lines' },
+                { id: 'sci910-ch3-t2', name: 'Electromagnet' },
+                { id: 'sci910-ch3-t3', name: 'Electromagnetic Induction' },
+                { id: 'sci910-ch3-t4', name: 'Electric Motor and Generator' },
+              ],
+            },
+            {
+              id: 'sci910-ch4',
+              name: 'Sources of Energy',
+              description: 'Conventional and non-conventional energy sources, renewable energy.',
+              importantConcepts: ['Conventional Sources', 'Non-conventional Sources', 'Solar Energy', 'Wind Energy', 'Nuclear Energy', 'Biomass'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'sci910-ch4-t1', name: 'Conventional Energy Sources' },
+                { id: 'sci910-ch4-t2', name: 'Non-conventional Energy Sources' },
+                { id: 'sci910-ch4-t3', name: 'Renewable vs Non-renewable' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'sci910-u2',
+          name: 'Chemistry',
+          chapters: [
+            {
+              id: 'sci910-ch5',
+              name: 'Chemical Reactions and Equations',
+              description: 'Types of reactions, balancing equations, oxidation-reduction.',
+              importantConcepts: ['Chemical Reaction', 'Combination', 'Decomposition', 'Displacement', 'Oxidation', 'Reduction', 'Balancing'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'sci910-ch5-t1', name: 'Types of Chemical Reactions' },
+                { id: 'sci910-ch5-t2', name: 'Balancing Chemical Equations' },
+                { id: 'sci910-ch5-t3', name: 'Oxidation and Reduction' },
+              ],
+            },
+            {
+              id: 'sci910-ch6',
+              name: 'Acids, Bases and Salts',
+              description: 'Properties of acids and bases, pH scale, salt formation.',
+              importantConcepts: ['Acids', 'Bases', 'pH Scale', 'Neutralization', 'Salts', 'Indicators'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'sci910-ch6-t1', name: 'Properties of Acids and Bases' },
+                { id: 'sci910-ch6-t2', name: 'pH Scale and Indicators' },
+                { id: 'sci910-ch6-t3', name: 'Salts and Neutralization' },
+              ],
+            },
+            {
+              id: 'sci910-ch7',
+              name: 'Periodic Classification of Elements',
+              description: 'Periodic table, trends, Dobereiner\u2019s triads, Mendeleev\u2019s table.',
+              importantConcepts: ['Periodic Table', 'Periodic Trends', 'Groups', 'Periods', 'Atomic Radius', 'Electronegativity'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'sci910-ch7-t1', name: 'Early Classification Attempts' },
+                { id: 'sci910-ch7-t2', name: 'Modern Periodic Table' },
+                { id: 'sci910-ch7-t3', name: 'Periodic Trends' },
+              ],
+            },
+            {
+              id: 'sci910-ch8',
+              name: 'Carbon and Its Compounds',
+              description: 'Covalent bonding, hydrocarbons, functional groups, soaps and detergents.',
+              importantConcepts: ['Covalent Bond', 'Hydrocarbons', 'Functional Groups', 'Homologous Series', 'Soaps', 'Detergents'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'sci910-ch8-t1', name: 'Covalent Bonding in Carbon' },
+                { id: 'sci910-ch8-t2', name: 'Hydrocarbons' },
+                { id: 'sci910-ch8-t3', name: 'Functional Groups and Homologous Series' },
+                { id: 'sci910-ch8-t4', name: 'Soaps and Detergents' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'sci910-u3',
+          name: 'Biology',
+          chapters: [
+            {
+              id: 'sci910-ch9',
+              name: 'Life Processes',
+              description: 'Nutrition, respiration, transportation, excretion in living organisms.',
+              importantConcepts: ['Nutrition', 'Respiration', 'Transportation', 'Excretion', 'Photosynthesis'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'sci910-ch9-t1', name: 'Nutrition in Plants and Animals' },
+                { id: 'sci910-ch9-t2', name: 'Respiration' },
+                { id: 'sci910-ch9-t3', name: 'Transportation in Organisms' },
+                { id: 'sci910-ch9-t4', name: 'Excretion' },
+              ],
+            },
+            {
+              id: 'sci910-ch10',
+              name: 'Heredity and Evolution',
+              description: 'Mendel\u2019s laws, sex determination, speciation, evolutionary evidence.',
+              importantConcepts: ['Heredity', 'Mendel\u2019s Laws', 'Genetics', 'Evolution', 'Speciation', 'Natural Selection'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'sci910-ch10-t1', name: 'Mendel\u2019s Laws of Inheritance' },
+                { id: 'sci910-ch10-t2', name: 'Sex Determination' },
+                { id: 'sci910-ch10-t3', name: 'Evolution and Speciation' },
+              ],
+            },
+            {
+              id: 'sci910-ch11',
+              name: 'Our Environment',
+              description: 'Ecosystem, food chains, biodiversity, waste management.',
+              importantConcepts: ['Ecosystem', 'Food Chain', 'Biodiversity', 'Waste Management', 'Conservation'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'sci910-ch11-t1', name: 'Ecosystem and Food Chains' },
+                { id: 'sci910-ch11-t2', name: 'Biodiversity and Conservation' },
+                { id: 'sci910-ch11-t3', name: 'Waste Management' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'bpsc910-gkgs',
+      name: 'General Knowledge & General Studies',
+      units: [
+        {
+          id: 'gk910-u1',
+          name: 'Indian History and Culture',
+          chapters: [
+            {
+              id: 'gk910-ch1',
+              name: 'Ancient and Medieval India',
+              description: 'Indus Valley, Maurya, Gupta, Delhi Sultanate, Mughal periods.',
+              importantConcepts: ['Indus Valley', 'Maurya Empire', 'Gupta Empire', 'Delhi Sultanate', 'Mughal Empire'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk910-ch1-t1', name: 'Ancient India' },
+                { id: 'gk910-ch1-t2', name: 'Medieval India' },
+                { id: 'gk910-ch1-t3', name: 'Cultural Heritage' },
+              ],
+            },
+            {
+              id: 'gk910-ch2',
+              name: 'Modern India and Freedom Struggle',
+              description: 'British Raj, 1857 revolt, Indian National Congress, independence.',
+              importantConcepts: ['British Raj', '1857 Revolt', 'Indian National Congress', 'Gandhi', 'Independence'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk910-ch2-t1', name: 'British Rule in India' },
+                { id: 'gk910-ch2-t2', name: 'Freedom Struggle' },
+                { id: 'gk910-ch2-t3', name: 'Indian Independence' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'gk910-u2',
+          name: 'Geography and Civics',
+          chapters: [
+            {
+              id: 'gk910-ch3',
+              name: 'Indian and World Geography',
+              description: 'Physical geography, climate, rivers, natural resources.',
+              importantConcepts: ['Physical Geography', 'Climate', 'Rivers', 'Natural Resources', 'Population'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk910-ch3-t1', name: 'Indian Geography' },
+                { id: 'gk910-ch3-t2', name: 'World Geography' },
+                { id: 'gk910-ch3-t3', name: 'Climate and Environment' },
+              ],
+            },
+            {
+              id: 'gk910-ch4',
+              name: 'Indian Polity and Economy',
+              description: 'Constitution, parliament, judiciary, economic systems.',
+              importantConcepts: ['Constitution', 'Parliament', 'Judiciary', 'Economy', 'Banking', 'Budget'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk910-ch4-t1', name: 'Indian Constitution' },
+                { id: 'gk910-ch4-t2', name: 'Parliament and Judiciary' },
+                { id: 'gk910-ch4-t3', name: 'Indian Economy' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'gk910-u3',
+          name: 'Bihar Specific',
+          chapters: [
+            {
+              id: 'gk910-ch5',
+              name: 'Bihar: Land, People and Governance',
+              description: 'Geography, history, culture, governance of Bihar.',
+              importantConcepts: ['Bihar Geography', 'Bihar History', 'Bihar Governance', 'Bihar Culture', 'Bihar Economy'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk910-ch5-t1', name: 'Geography of Bihar' },
+                { id: 'gk910-ch5-t2', name: 'History of Bihar' },
+                { id: 'gk910-ch5-t3', name: 'Governance in Bihar' },
+                { id: 'gk910-ch5-t4', name: 'Economy of Bihar' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'bpsc910-aptitude',
+      name: 'Aptitude',
+      units: [
+        {
+          id: 'apt910-u1',
+          name: 'Quantitative Aptitude',
+          chapters: [
+            {
+              id: 'apt910-ch1',
+              name: 'Arithmetic and Number System',
+              description: 'Percentages, averages, ratios, time-speed-distance, number system.',
+              importantConcepts: ['Percentages', 'Averages', 'Ratio and Proportion', 'Time and Work', 'Speed and Distance'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'apt910-ch1-t1', name: 'Percentages and Averages' },
+                { id: 'apt910-ch1-t2', name: 'Ratio and Proportion' },
+                { id: 'apt910-ch1-t3', name: 'Time and Work' },
+                { id: 'apt910-ch1-t4', name: 'Time, Speed and Distance' },
+              ],
+            },
+            {
+              id: 'apt910-ch2',
+              name: 'Data Interpretation and Sufficiency',
+              description: 'Data interpretation, data sufficiency, logical reasoning.',
+              importantConcepts: ['Data Interpretation', 'Data Sufficiency', 'Logical Reasoning', 'Analytical Reasoning'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'apt910-ch2-t1', name: 'Data Interpretation' },
+                { id: 'apt910-ch2-t2', name: 'Data Sufficiency' },
+                { id: 'apt910-ch2-t3', name: 'Analytical Reasoning' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'apt910-u2',
+          name: 'Reasoning',
+          chapters: [
+            {
+              id: 'apt910-ch3',
+              name: 'Verbal and Non-Verbal Reasoning',
+              description: 'Analogy, series, blood relations, direction, coding-decoding, puzzles.',
+              importantConcepts: ['Analogy', 'Series', 'Blood Relations', 'Coding-Decoding', 'Puzzles', 'Syllogism'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'apt910-ch3-t1', name: 'Analogy and Series' },
+                { id: 'apt910-ch3-t2', name: 'Blood Relations and Directions' },
+                { id: 'apt910-ch3-t3', name: 'Coding-Decoding' },
+                { id: 'apt910-ch3-t4', name: 'Puzzles and Syllogism' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'bpsc910-teaching',
+      name: 'Teaching Ability',
+      units: [
+        {
+          id: 'tea910-u1',
+          name: 'Educational Psychology and Pedagogy',
+          chapters: [
+            {
+              id: 'tea910-ch1',
+              name: 'Educational Psychology',
+              description: 'Learning theories, child development, cognitive development.',
+              importantConcepts: ['Learning Theories', 'Piaget', 'Vygotsky', 'Cognitive Development', 'Motivation'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'tea910-ch1-t1', name: 'Theories of Learning' },
+                { id: 'tea910-ch1-t2', name: 'Cognitive Development' },
+                { id: 'tea910-ch1-t3', name: 'Motivation and Learning' },
+                { id: 'tea910-ch1-t4', name: 'Individual Differences' },
+              ],
+            },
+            {
+              id: 'tea910-ch2',
+              name: 'Teaching Methods and Assessment',
+              description: 'Teaching strategies, assessment for learning, classroom management.',
+              importantConcepts: ['Teaching Methods', 'Assessment', 'Classroom Management', 'Inclusive Education', 'ICT in Education'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'tea910-ch2-t1', name: 'Teaching Strategies' },
+                { id: 'tea910-ch2-t2', name: 'Assessment for Learning' },
+                { id: 'tea910-ch2-t3', name: 'Classroom Management' },
+                { id: 'tea910-ch2-t4', name: 'ICT in Education' },
+              ],
+            },
+            {
+              id: 'tea910-ch3',
+              name: 'Educational Policies and Schemes',
+              description: 'RTE Act, NEP 2020, NCF, educational schemes.',
+              importantConcepts: ['RTE Act', 'NEP 2020', 'NCF', 'SSA', 'Mid-day Meal', 'Educational Schemes'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'tea910-ch3-t1', name: 'Right to Education Act' },
+                { id: 'tea910-ch3-t2', name: 'National Education Policy 2020' },
+                { id: 'tea910-ch3-t3', name: 'National Curriculum Framework' },
+                { id: 'tea910-ch3-t4', name: 'Educational Schemes' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};

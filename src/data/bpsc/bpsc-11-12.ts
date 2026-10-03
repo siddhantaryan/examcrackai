@@ -1,0 +1,552 @@
+import type { Syllabus } from '@/types';
+
+export const BPSC_11_12_SYLLABUS: Syllabus = {
+  trackId: 'bpsc-11-12',
+  trackName: 'BPSC TRE 4.0 - Classes 11-12',
+  subjects: [
+    {
+      id: 'bpsc1112-cs',
+      name: 'Computer Science',
+      units: [
+        {
+          id: 'cs-u1',
+          name: 'Computer Fundamentals',
+          chapters: [
+            {
+              id: 'cs-ch1',
+              name: 'Computer Fundamentals',
+              description: 'History, generations, classifications, and basic components of computers.',
+              importantConcepts: ['Generations of Computers', 'Components', 'Input/Output Devices', 'Classification of Computers'],
+              difficultyDistribution: { easy: 0.4, medium: 0.4, hard: 0.2 },
+              topics: [
+                { id: 'cs-ch1-t1', name: 'Introduction to Computers' },
+                { id: 'cs-ch1-t2', name: 'Generations of Computers' },
+                { id: 'cs-ch1-t3', name: 'Components of a Computer' },
+                { id: 'cs-ch1-t4', name: 'Classification of Computers' },
+              ],
+            },
+            {
+              id: 'cs-ch2',
+              name: 'Number Systems',
+              description: 'Binary, octal, decimal, hexadecimal conversions and arithmetic.',
+              importantConcepts: ['Binary', 'Octal', 'Hexadecimal', 'Conversion', 'Binary Arithmetic'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'cs-ch2-t1', name: 'Binary Number System' },
+                { id: 'cs-ch2-t2', name: 'Octal and Hexadecimal' },
+                { id: 'cs-ch2-t3', name: 'Number Base Conversions' },
+                { id: 'cs-ch2-t4', name: 'Binary Arithmetic' },
+                { id: 'cs-ch2-t5', name: 'Complements' },
+              ],
+            },
+            {
+              id: 'cs-ch3',
+              name: 'Boolean Algebra and Digital Logic',
+              description: 'Boolean algebra, logic gates, K-maps, and digital circuit design.',
+              importantConcepts: ['Boolean Algebra', 'Logic Gates', 'K-Map', 'De Morgan\u2019s Theorem', 'Truth Tables'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch3-t1', name: 'Boolean Algebra' },
+                { id: 'cs-ch3-t2', name: 'Logic Gates' },
+                { id: 'cs-ch3-t3', name: 'De Morgan\u2019s Theorem' },
+                { id: 'cs-ch3-t4', name: 'Karnaugh Maps' },
+                { id: 'cs-ch3-t5', name: 'Combinational Circuits' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u2',
+          name: 'Computer Organization and Architecture',
+          chapters: [
+            {
+              id: 'cs-ch4',
+              name: 'Computer Organization',
+              description: 'CPU, memory hierarchy, registers, buses, and instruction cycles.',
+              importantConcepts: ['CPU', 'ALU', 'Control Unit', 'Registers', 'Bus', 'Instruction Cycle'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'cs-ch4-t1', name: 'CPU and ALU' },
+                { id: 'cs-ch4-t2', name: 'Memory Hierarchy' },
+                { id: 'cs-ch4-t3', name: 'Registers' },
+                { id: 'cs-ch4-t4', name: 'Bus Structure' },
+                { id: 'cs-ch4-t5', name: 'Instruction Cycle' },
+              ],
+            },
+            {
+              id: 'cs-ch5',
+              name: 'Computer Architecture',
+              description: 'Pipelining, instruction formats, addressing modes, and memory organization.',
+              importantConcepts: ['Pipelining', 'Instruction Format', 'Addressing Modes', 'Cache Memory', 'RISC vs CISC'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch5-t1', name: 'Instruction Formats' },
+                { id: 'cs-ch5-t2', name: 'Addressing Modes' },
+                { id: 'cs-ch5-t3', name: 'Pipelining' },
+                { id: 'cs-ch5-t4', name: 'RISC and CISC' },
+                { id: 'cs-ch5-t5', name: 'Cache Memory' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u3',
+          name: 'Programming',
+          chapters: [
+            {
+              id: 'cs-ch6',
+              name: 'C Programming',
+              description: 'Data types, operators, control structures, functions, pointers, arrays, and structures.',
+              importantConcepts: ['Variables', 'Data Types', 'Pointers', 'Arrays', 'Functions', 'Structures'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch6-t1', name: 'Data Types and Variables' },
+                { id: 'cs-ch6-t2', name: 'Operators and Expressions' },
+                { id: 'cs-ch6-t3', name: 'Control Structures' },
+                { id: 'cs-ch6-t4', name: 'Functions' },
+                { id: 'cs-ch6-t5', name: 'Arrays and Strings' },
+                { id: 'cs-ch6-t6', name: 'Pointers' },
+                { id: 'cs-ch6-t7', name: 'Structures and Unions' },
+              ],
+            },
+            {
+              id: 'cs-ch7',
+              name: 'C++ Programming',
+              description: 'OOP concepts, classes, inheritance, polymorphism, templates, and STL.',
+              importantConcepts: ['Class', 'Object', 'Inheritance', 'Polymorphism', 'Encapsulation', 'Templates', 'STL'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch7-t1', name: 'OOP Concepts' },
+                { id: 'cs-ch7-t2', name: 'Classes and Objects' },
+                { id: 'cs-ch7-t3', name: 'Inheritance' },
+                { id: 'cs-ch7-t4', name: 'Polymorphism' },
+                { id: 'cs-ch7-t5', name: 'Templates' },
+                { id: 'cs-ch7-t6', name: 'STL' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u4',
+          name: 'Data Structures',
+          chapters: [
+            {
+              id: 'cs-ch8',
+              name: 'Data Structures',
+              description: 'Arrays, linked lists, stacks, queues, trees, and graphs.',
+              importantConcepts: ['Array', 'Linked List', 'Stack', 'Queue', 'Tree', 'Graph', 'Hash Table'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch8-t1', name: 'Arrays' },
+                { id: 'cs-ch8-t2', name: 'Linked Lists' },
+                { id: 'cs-ch8-t3', name: 'Stacks' },
+                { id: 'cs-ch8-t4', name: 'Queues' },
+                { id: 'cs-ch8-t5', name: 'Trees' },
+                { id: 'cs-ch8-t6', name: 'Binary Search Trees' },
+                { id: 'cs-ch8-t7', name: 'Graphs' },
+                { id: 'cs-ch8-t8', name: 'Hash Tables' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u5',
+          name: 'Algorithms',
+          chapters: [
+            {
+              id: 'cs-ch9',
+              name: 'Algorithms and Complexity',
+              description: 'Searching, sorting, algorithm design, and time/space complexity analysis.',
+              importantConcepts: ['Big-O', 'Binary Search', 'Quick Sort', 'Merge Sort', 'Dynamic Programming', 'Greedy'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch9-t1', name: 'Algorithm Analysis' },
+                { id: 'cs-ch9-t2', name: 'Searching Algorithms' },
+                { id: 'cs-ch9-t3', name: 'Sorting Algorithms' },
+                { id: 'cs-ch9-t4', name: 'Divide and Conquer' },
+                { id: 'cs-ch9-t5', name: 'Dynamic Programming' },
+                { id: 'cs-ch9-t6', name: 'Greedy Algorithms' },
+                { id: 'cs-ch9-t7', name: 'Graph Algorithms' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u6',
+          name: 'Database Management Systems',
+          chapters: [
+            {
+              id: 'cs-ch10',
+              name: 'Database Management Systems',
+              description: 'ER models, relational model, SQL, normalization, and transactions.',
+              importantConcepts: ['ER Model', 'Relational Model', 'SQL', 'Normalization', 'ACID', 'Transactions'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch10-t1', name: 'DBMS Fundamentals' },
+                { id: 'cs-ch10-t2', name: 'ER Model' },
+                { id: 'cs-ch10-t3', name: 'Relational Model' },
+                { id: 'cs-ch10-t4', name: 'Relational Algebra' },
+                { id: 'cs-ch10-t5', name: 'SQL' },
+                { id: 'cs-ch10-t6', name: 'Normalization' },
+                { id: 'cs-ch10-t7', name: 'Transactions and Concurrency' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u7',
+          name: 'Operating Systems',
+          chapters: [
+            {
+              id: 'cs-ch11',
+              name: 'Operating Systems',
+              description: 'Processes, threads, scheduling, deadlocks, memory management, and file systems.',
+              importantConcepts: ['Process', 'Thread', 'Scheduling', 'Deadlock', 'Paging', 'Segmentation', 'File System'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch11-t1', name: 'OS Fundamentals' },
+                { id: 'cs-ch11-t2', name: 'Process Management' },
+                { id: 'cs-ch11-t3', name: 'Threads' },
+                { id: 'cs-ch11-t4', name: 'CPU Scheduling' },
+                { id: 'cs-ch11-t5', name: 'Deadlocks' },
+                { id: 'cs-ch11-t6', name: 'Memory Management' },
+                { id: 'cs-ch11-t7', name: 'Paging and Segmentation' },
+                { id: 'cs-ch11-t8', name: 'File Systems' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u8',
+          name: 'Computer Networks',
+          chapters: [
+            {
+              id: 'cs-ch12',
+              name: 'Computer Networks',
+              description: 'OSI/TCP-IP models, protocols, IP addressing, routing, and network devices.',
+              importantConcepts: ['OSI Model', 'TCP/IP', 'IP Addressing', 'Subnetting', 'Routing', 'DNS', 'DHCP'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch12-t1', name: 'Network Fundamentals' },
+                { id: 'cs-ch12-t2', name: 'OSI Model' },
+                { id: 'cs-ch12-t3', name: 'TCP/IP Model' },
+                { id: 'cs-ch12-t4', name: 'IP Addressing and Subnetting' },
+                { id: 'cs-ch12-t5', name: 'Routing Protocols' },
+                { id: 'cs-ch12-t6', name: 'Application Protocols' },
+                { id: 'cs-ch12-t7', name: 'Network Devices' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u9',
+          name: 'Theory of Computation',
+          chapters: [
+            {
+              id: 'cs-ch13',
+              name: 'Theory of Computation',
+              description: 'Automata, regular languages, context-free grammars, and Turing machines.',
+              importantConcepts: ['DFA', 'NFA', 'Regular Expression', 'CFG', 'PDA', 'Turing Machine'],
+              difficultyDistribution: { easy: 0.1, medium: 0.4, hard: 0.5 },
+              topics: [
+                { id: 'cs-ch13-t1', name: 'Finite Automata' },
+                { id: 'cs-ch13-t2', name: 'Regular Languages' },
+                { id: 'cs-ch13-t3', name: 'Context-Free Grammars' },
+                { id: 'cs-ch13-t4', name: 'Pushdown Automata' },
+                { id: 'cs-ch13-t5', name: 'Turing Machines' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u10',
+          name: 'Software Engineering and Web Technologies',
+          chapters: [
+            {
+              id: 'cs-ch14',
+              name: 'Software Engineering',
+              description: 'SDLC, models, testing, and software project management.',
+              importantConcepts: ['SDLC', 'Waterfall', 'Agile', 'Testing', 'Cyclomatic Complexity', 'CMM'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'cs-ch14-t1', name: 'SDLC Models' },
+                { id: 'cs-ch14-t2', name: 'Software Testing' },
+                { id: 'cs-ch14-t3', name: 'Software Metrics' },
+                { id: 'cs-ch14-t4', name: 'Project Management' },
+              ],
+            },
+            {
+              id: 'cs-ch15',
+              name: 'Web Technologies',
+              description: 'HTML, CSS, JavaScript, HTTP, and web architecture.',
+              importantConcepts: ['HTML', 'CSS', 'JavaScript', 'HTTP', 'REST', 'Client-Server'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'cs-ch15-t1', name: 'HTML and CSS' },
+                { id: 'cs-ch15-t2', name: 'JavaScript' },
+                { id: 'cs-ch15-t3', name: 'HTTP Protocol' },
+                { id: 'cs-ch15-t4', name: 'Web Architecture' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'cs-u11',
+          name: 'Computer Security and Discrete Mathematics',
+          chapters: [
+            {
+              id: 'cs-ch16',
+              name: 'Computer Security',
+              description: 'Cryptography, authentication, attacks, and security protocols.',
+              importantConcepts: ['Cryptography', 'Symmetric/Asymmetric', 'Digital Signature', 'Firewall', 'Attacks'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch16-t1', name: 'Security Fundamentals' },
+                { id: 'cs-ch16-t2', name: 'Cryptography' },
+                { id: 'cs-ch16-t3', name: 'Authentication' },
+                { id: 'cs-ch16-t4', name: 'Network Security' },
+              ],
+            },
+            {
+              id: 'cs-ch17',
+              name: 'Discrete Mathematics',
+              description: 'Set theory, logic, relations, functions, combinatorics, and graph theory.',
+              importantConcepts: ['Set Theory', 'Logic', 'Relations', 'Functions', 'Combinatorics', 'Graph Theory'],
+              difficultyDistribution: { easy: 0.2, medium: 0.5, hard: 0.3 },
+              topics: [
+                { id: 'cs-ch17-t1', name: 'Set Theory' },
+                { id: 'cs-ch17-t2', name: 'Propositional Logic' },
+                { id: 'cs-ch17-t3', name: 'Relations and Functions' },
+                { id: 'cs-ch17-t4', name: 'Combinatorics' },
+                { id: 'cs-ch17-t5', name: 'Graph Theory' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'bpsc1112-gkgs',
+      name: 'General Knowledge & General Studies',
+      units: [
+        {
+          id: 'gk1112-u1',
+          name: 'Indian History and Culture',
+          chapters: [
+            {
+              id: 'gk1112-ch1',
+              name: 'Ancient, Medieval and Modern Indian History',
+              description: 'Comprehensive Indian history from ancient to modern period.',
+              importantConcepts: ['Ancient India', 'Medieval India', 'Modern India', 'Freedom Struggle', 'Cultural Heritage'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk1112-ch1-t1', name: 'Ancient India' },
+                { id: 'gk1112-ch1-t2', name: 'Medieval India' },
+                { id: 'gk1112-ch1-t3', name: 'Modern India and Freedom Struggle' },
+              ],
+            },
+            {
+              id: 'gk1112-ch2',
+              name: 'Indian Art and Culture',
+              description: 'Classical dances, music, painting, architecture, literature.',
+              importantConcepts: ['Classical Dance', 'Music', 'Painting', 'Architecture', 'Literature', 'Festivals'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk1112-ch2-t1', name: 'Classical Dance and Music' },
+                { id: 'gk1112-ch2-t2', name: 'Painting and Architecture' },
+                { id: 'gk1112-ch2-t3', name: 'Literature and Festivals' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'gk1112-u2',
+          name: 'Geography, Polity and Economy',
+          chapters: [
+            {
+              id: 'gk1112-ch3',
+              name: 'Indian and World Geography',
+              description: 'Physical geography, Indian geography, world geography, environment.',
+              importantConcepts: ['Physical Geography', 'Indian Geography', 'World Geography', 'Environment', 'Climate'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk1112-ch3-t1', name: 'Physical Geography' },
+                { id: 'gk1112-ch3-t2', name: 'Indian Geography' },
+                { id: 'gk1112-ch3-t3', name: 'World Geography' },
+              ],
+            },
+            {
+              id: 'gk1112-ch4',
+              name: 'Indian Polity and Governance',
+              description: 'Constitution, fundamental rights, parliament, judiciary, local government.',
+              importantConcepts: ['Constitution', 'Fundamental Rights', 'Parliament', 'Judiciary', 'Local Government', 'Federalism'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk1112-ch4-t1', name: 'Indian Constitution' },
+                { id: 'gk1112-ch4-t2', name: 'Parliament and Judiciary' },
+                { id: 'gk1112-ch4-t3', name: 'Federalism and Local Government' },
+              ],
+            },
+            {
+              id: 'gk1112-ch5',
+              name: 'Indian Economy',
+              description: 'Economic systems, banking, budget, fiscal policy, monetary policy.',
+              importantConcepts: ['Economic Systems', 'Banking', 'Budget', 'Fiscal Policy', 'Monetary Policy', 'GDP'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk1112-ch5-t1', name: 'Indian Economic System' },
+                { id: 'gk1112-ch5-t2', name: 'Banking and Finance' },
+                { id: 'gk1112-ch5-t3', name: 'Fiscal and Monetary Policy' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'gk1112-u3',
+          name: 'Bihar Specific and Current Affairs',
+          chapters: [
+            {
+              id: 'gk1112-ch6',
+              name: 'Bihar: History, Geography, Culture and Economy',
+              description: 'Comprehensive study of Bihar.',
+              importantConcepts: ['Bihar History', 'Bihar Geography', 'Bihar Culture', 'Bihar Economy', 'Bihar Governance'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk1112-ch6-t1', name: 'History and Culture of Bihar' },
+                { id: 'gk1112-ch6-t2', name: 'Geography and Economy of Bihar' },
+                { id: 'gk1112-ch6-t3', name: 'Governance in Bihar' },
+              ],
+            },
+            {
+              id: 'gk1112-ch7',
+              name: 'Current Affairs',
+              description: 'National and international current affairs, sports, awards, science.',
+              importantConcepts: ['National Affairs', 'International Affairs', 'Sports', 'Awards', 'Science and Technology'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'gk1112-ch7-t1', name: 'National and International Affairs' },
+                { id: 'gk1112-ch7-t2', name: 'Sports and Awards' },
+                { id: 'gk1112-ch7-t3', name: 'Science and Technology Updates' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'bpsc1112-teaching',
+      name: 'Teaching Ability',
+      units: [
+        {
+          id: 'tea1112-u1',
+          name: 'Educational Psychology and Pedagogy',
+          chapters: [
+            {
+              id: 'tea1112-ch1',
+              name: 'Educational Psychology',
+              description: 'Advanced learning theories, cognitive development, motivation, intelligence.',
+              importantConcepts: ['Learning Theories', 'Piaget', 'Vygotsky', 'Bloom\u2019s Taxonomy', 'Motivation', 'Intelligence Theories'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'tea1112-ch1-t1', name: 'Advanced Learning Theories' },
+                { id: 'tea1112-ch1-t2', name: 'Cognitive Development Theories' },
+                { id: 'tea1112-ch1-t3', name: 'Bloom\u2019s Taxonomy' },
+                { id: 'tea1112-ch1-t4', name: 'Motivation and Intelligence' },
+              ],
+            },
+            {
+              id: 'tea1112-ch2',
+              name: 'Teaching Methods, Assessment and ICT',
+              description: 'Modern teaching strategies, assessment methods, ICT in education.',
+              importantConcepts: ['Teaching Methods', 'Assessment', 'ICT', 'E-learning', 'Inclusive Education', 'Action Research'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'tea1112-ch2-t1', name: 'Modern Teaching Strategies' },
+                { id: 'tea1112-ch2-t2', name: 'Assessment and Evaluation' },
+                { id: 'tea1112-ch2-t3', name: 'ICT in Education' },
+                { id: 'tea1112-ch2-t4', name: 'Inclusive Education and Action Research' },
+              ],
+            },
+            {
+              id: 'tea1112-ch3',
+              name: 'Educational Policies, Schemes and Curriculum',
+              description: 'RTE Act, NEP 2020, NCF, curriculum design, educational schemes.',
+              importantConcepts: ['RTE Act', 'NEP 2020', 'NCF', 'Curriculum Design', 'Educational Schemes'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'tea1112-ch3-t1', name: 'Right to Education Act' },
+                { id: 'tea1112-ch3-t2', name: 'National Education Policy 2020' },
+                { id: 'tea1112-ch3-t3', name: 'National Curriculum Framework' },
+                { id: 'tea1112-ch3-t4', name: 'Educational Schemes and Programs' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'bpsc1112-language',
+      name: 'Language Paper',
+      units: [
+        {
+          id: 'lang1112-u1',
+          name: 'Hindi',
+          chapters: [
+            {
+              id: 'lang1112-ch1',
+              name: 'Hindi Grammar and Comprehension',
+              description: 'Hindi grammar, vocabulary, comprehension, essay writing.',
+              importantConcepts: ['Hindi Grammar', 'Sandhi', 'Samas', 'Alankar', 'Comprehension', 'Essay Writing'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'lang1112-ch1-t1', name: 'Hindi Grammar (Sandhi, Samas, Alankar)' },
+                { id: 'lang1112-ch1-t2', name: 'Hindi Vocabulary and Usage' },
+                { id: 'lang1112-ch1-t3', name: 'Comprehension and Essay Writing' },
+              ],
+            },
+            {
+              id: 'lang1112-ch2',
+              name: 'Hindi Literature',
+              description: 'Hindi poetry, prose, literary periods, important authors.',
+              importantConcepts: ['Hindi Poetry', 'Hindi Prose', 'Literary Periods', 'Important Authors', 'Literary Movements'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'lang1112-ch2-t1', name: 'Hindi Poetry and Prose' },
+                { id: 'lang1112-ch2-t2', name: 'Literary Periods and Authors' },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'lang1112-u2',
+          name: 'English',
+          chapters: [
+            {
+              id: 'lang1112-ch3',
+              name: 'English Grammar and Comprehension',
+              description: 'English grammar, vocabulary, comprehension, précis writing.',
+              importantConcepts: ['English Grammar', 'Tenses', 'Voice', 'Narration', 'Comprehension', 'Précis Writing'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'lang1112-ch3-t1', name: 'English Grammar (Tenses, Voice, Narration)' },
+                { id: 'lang1112-ch3-t2', name: 'Vocabulary and Usage' },
+                { id: 'lang1112-ch3-t3', name: 'Comprehension and Précis Writing' },
+              ],
+            },
+            {
+              id: 'lang1112-ch4',
+              name: 'English Literature',
+              description: 'English poetry, prose, literary periods, important authors.',
+              importantConcepts: ['English Poetry', 'English Prose', 'Literary Periods', 'Important Authors'],
+              difficultyDistribution: { easy: 0.3, medium: 0.5, hard: 0.2 },
+              topics: [
+                { id: 'lang1112-ch4-t1', name: 'English Poetry and Prose' },
+                { id: 'lang1112-ch4-t2', name: 'Literary Periods and Authors' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
